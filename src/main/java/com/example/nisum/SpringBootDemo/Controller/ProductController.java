@@ -16,7 +16,7 @@ public class ProductController {
 		return new ResponseEntity<>("All the product's",HttpStatus.OK);
 	}
 	
-	@RequestMapping(method=RequestMethod.GET,value="/getProduct")
+	@RequestMapping(method=RequestMethod.GET,value="/getProducts")
 	public ResponseEntity<?> getAllProduct()
 	{
 		return new ResponseEntity<>("one product",HttpStatus.OK);
@@ -33,10 +33,15 @@ public class ProductController {
 	}
 	public ResponseEntity<?> delete()
 	{
-		return new ResponseEntity<>("save Product",HttpStatus.OK);
+		return new ResponseEntity<>("saves Product",HttpStatus.OK);
 	}
 	public ResponseEntity<?> getProductByName()
 	{
+		return new ResponseEntity<>("save Product",HttpStatus.OK);
+	}
+	public ResponseEntity<?> getProductId()
+	{
+		
 		return new ResponseEntity<>("save Product",HttpStatus.OK);
 	}
 	
