@@ -31,4 +31,8 @@ public class ProductController {
 	{
 		return new ResponseEntity<>("save Product",HttpStatus.OK);
 	}
+	public ResponseEntity<?> delete()
+	{
+		return new ResponseEntity<>("save Product",HttpStatus.OK);
+	}
 }
