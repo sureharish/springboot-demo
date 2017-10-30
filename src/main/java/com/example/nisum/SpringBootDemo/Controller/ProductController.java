@@ -27,4 +27,8 @@ public class ProductController {
 		return new ResponseEntity<>("save Product",HttpStatus.OK);
 	}
 	
+	public ResponseEntity<?> updateProduct()
+	{
+		return new ResponseEntity<>("save Product",HttpStatus.OK);
+	}
 }
