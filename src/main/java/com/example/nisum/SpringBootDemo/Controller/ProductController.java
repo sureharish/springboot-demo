@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/products")
 public class ProductController {
 	
-	@RequestMapping(method=RequestMethod.GET)
+	@RequestMapping(method=RequestMethod.PUT)
 	public ResponseEntity<?> getAllProducts()
 	{
 		return new ResponseEntity<>("All the product's",HttpStatus.OK);
